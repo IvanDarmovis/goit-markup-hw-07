@@ -297,6 +297,8 @@ img {
   margin-right: 30px;
 }
 
+/* TEAM */
+
 .team {
   font-size: 16px;
   line-height: 1.19;
@@ -323,6 +325,8 @@ img {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+/* SOCIAL-LIST */
 
 .team .social-list {
   display: flex;
@@ -363,6 +367,8 @@ img {
   background-color: var(--accent-color);
   fill: #fff;
 }
+
+/* CLIENTS */
 
 .clients-list {
   display: flex;

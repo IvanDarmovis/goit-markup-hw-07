@@ -82,7 +82,7 @@ img {
 
   border-bottom: 1px solid #ececec;
 }
-/*  */
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -91,11 +91,11 @@ img {
   color: var(--accent-color);
   margin-right: 93px;
 }
-/*  */
+
 .logo-accent {
   color: #000000;
 }
-/*  */
+
 .site-nav .link {
   display: inline-block;
   padding-top: 32px;
@@ -106,12 +106,12 @@ img {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*  */
+
 .site-nav .item:not(:last-child),
 .contacts .item:not(:last-child) {
   margin-right: 50px;
 }
-/*  */
+
 .contacts .link {
   display: flex;
   align-items: center;
@@ -122,26 +122,26 @@ img {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*  */
+
 .contacts .link:hover,
 .contacts .link:focus {
   fill: var(--accent-color);
 }
-/*  */
+
 .header-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
 }
-/*  */
+
 .contacts {
   margin-left: auto;
 }
-/*  */
+
 .link.current {
   position: relative;
 }
-/*  */
+
 .link.current::after {
   position: absolute;
   bottom: -1px;
@@ -153,7 +153,7 @@ img {
   border-radius: 2px;
   background-color: var(--accent-color);
 }
-/*  */
+
 .site-nav .link:hover,
 /*  */
 .contacts .link:hover,
@@ -222,6 +222,8 @@ img {
   background-color: var(--hero-button-accent);
 }
 
+/* FEATURES */
+
 .features {
   font-size: 14px;
   line-height: 1.71;
@@ -257,6 +259,8 @@ img {
   width: 70px;
   height: 70px;
 }
+
+/* TASKS */
 
 .title {
   font-size: 36px;
